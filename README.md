@@ -10,7 +10,7 @@ QR Code Generator with GUI built in Python with Tkinter.
  - SYS
  - Subprocess
  - OS
- - [Pillow (ImageTk && Image](https://pypi.org/project/Pillow/)
+ - [Pillow (ImageTk && Image)](https://pypi.org/project/Pillow/)
 
 ## Features
 
