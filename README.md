@@ -19,6 +19,14 @@ QR Code Generator with GUI built in Python with Tkinter.
 - Open QR Code directory
 - Delete QR Code
 
+## Instructions
+1. Clone Repository
+2. Open folder in IDE of choice
+3. When in the root directory, run this:
+   - pip install -r requirements.txt
+   OR
+   - pip3 install -r requirements.txt
+4. Run QrGenV1.py & Enjoy :)
 
 ## Screenshots
 
