@@ -1,4 +1,5 @@
 # Importing Packages
+# Update Requirements with 'pipreqs'
 import qrcode, tkinter, sys, subprocess, os, time
 from tkinter import *
 import tkinter.filedialog
