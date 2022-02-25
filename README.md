@@ -1,2 +1,34 @@
 # QrCodeGenGUI
- QR Code Generator with GUI built in Python with Tkinter.
+QR Code Generator with GUI built in Python with Tkinter.
+
+<img src="src/icons/icon.jpg" width="300" height="300">
+
+## Acknowledgements / Packages Used
+
+ - [QrCode](https://pypi.org/project/qrcode/)
+ - [Tkinter](https://docs.python.org/3/library/tkinter.html)
+ - [Sys](https://docs.python.org/3/library/sys.html)
+ - [Subprocess](https://docs.python.org/3/library/subprocess.html)
+ - [OS]
+ - [Pillow (ImageTk && Image](https://pypi.org/project/Pillow/)
+
+
+
+
+## Documentation
+
+N/A
+
+
+## Features
+
+- Create QR Code
+- View QR Code
+- Open QR Code directory
+- Delete QR Code
+
+
+## Screenshots
+
+![App Screenshot 1](screenshots/1screen.png)
+![App Screenshot 2](screenshots/2screen.png)
