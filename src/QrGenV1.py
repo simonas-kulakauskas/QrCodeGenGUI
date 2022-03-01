@@ -1,17 +1,20 @@
 # Importing Packages
 # Update Requirements with 'pipreqs'
-import qrcode, tkinter, sys, subprocess, os, time
+import sys
+import subprocess
+import os
+import qrcode
 from tkinter import *
 import tkinter.filedialog
 from PIL import ImageTk, Image
 
 
-loc = "/" # Base Directory Variable
+loc = "/"  # Base Directory Variable
 
 class logoLoc(object): # Locations of all logos put into a class - Easier to Call Globally
-    iconjpg = "src/icons/icon.jpg"
-    iconico = "src/icons/icon.ico"
-    empty = "src/icons/empty.jpg"
+    iconjpg = "icons/icon.jpg"
+    iconico = "icons/icon.ico"
+    empty = "icons/empty.jpg"
 
 
 def askUser(): 
@@ -154,10 +157,9 @@ window.geometry("600x400+10+20")
 window.minsize(600,400)
 window.maxsize(600,400)
 
-img = tkinter.Image("photo", file=logoLoc.iconjpg)
-window.tk.call("wm", "iconphoto", window._w, img)
-window.iconbitmap("src/icons/icon.ico")
+#img = tkinter.Image("photo", file="icons/icon.jpg")
+#window.tk.call("wm", "iconphoto", window._w, img)
+#window.iconbitmap("icons/icon.ico")
 
 window.mainloop()
-
 askUser()
